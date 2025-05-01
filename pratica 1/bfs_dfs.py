@@ -11,7 +11,6 @@ class Buscas:
             if vertice not in visitados:
                 visitados.append(vertice)
             if vertice == ponto_final:
-                print('Achei chefe')
                 break
 
             for v in grafo[vertice]:
@@ -28,7 +27,6 @@ class Buscas:
                 visitados.append(vertice)
 
             if vertice == ponto_final:
-                print('Achei chefe')
                 break
 
             for n in grafo[vertice]: 
